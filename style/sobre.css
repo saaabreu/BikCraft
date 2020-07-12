@@ -1,0 +1,55 @@
+/* Introdução */ 
+
+.introducao {
+	height: 160px;
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+	padding-top: 30px;
+}
+
+.introducao h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 6px auto 10px auto;
+}
+
+.introducao p {
+	color: #FFF;
+}
+
+/* Missão Valores */ 
+
+.missao-valores {
+	padding-top: 60px;
+}
+
+
+.missao p {
+	padding-right: 50px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.missao .subtitulo, .valores .subtitulo {
+	text-align: left; 
+	margin-bottom: 15px;
+}
+
+.missao .subtitulo:after, .valores .subtitulo:after {
+	margin: 2px 0 10px 0; 
+}
+
+.valores ul li {
+	font-family: Georgia, "Time New Roman", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.img-missao {
+	padding-top: 30px;
+	clear: both;
+	
+}

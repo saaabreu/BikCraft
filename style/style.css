@@ -90,6 +90,10 @@ img {
 	color: #FFF;
 }
 
+.header-menu ul li a.menu-ativo {
+	color: #FFF;
+}
+
 /* Introdução */ 
 
 .introducao {
@@ -242,6 +246,7 @@ img {
 
 .qualidade-lista {
 	padding-top: 20px;
+	overflow: auto;
 }
 
 .qualidade-lista li h3 {
@@ -250,7 +255,7 @@ img {
 	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	margin-top: 20px; 
+	margin-top: 20px;
 }
 
 .qualidade-lista li h3:after {
