@@ -3,6 +3,7 @@
 .introducao {
 	height: 160px;
 	background: url("../img/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
 	padding-top: 30px;
 }
 
