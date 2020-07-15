@@ -1,0 +1,43 @@
+/* Introdução */ 
+
+.introducao {
+	height: 160px;
+	background: url("../img/bg-portfolio.jpg") no-repeat center;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.introducao h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 6px auto 10px auto;
+}
+
+.introducao p {
+	color: #FFF;
+}
+
+/* Citação */
+
+.citacao .quote-externo {
+	color: #000;
+	margin-top: 40px;
+	max-width: 450px;
+}
+
+.citacao p {
+	font-size: 18px;
+	text-align: center;
+}
+
+.citacao .quote-externo cite {
+	text-align: right;
+	float: right;
+	margin-bottom: 30px;
+	letter-spacing: 0;
+	font-size: 18px;
+}
+
