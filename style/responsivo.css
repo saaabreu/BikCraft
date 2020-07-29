@@ -10,6 +10,32 @@
 	padding: 0 10px;
 }
 
+/* Produtos */
+
+.produto-item h2 {
+	top: -150px;
+	margin-bottom: -56px;
+}
+
+.produto-icone {
+	padding: 41px 0;
+}
+
+.produto-info p {
+	font-size: 14px;
+    line-height: 20px;
+    height: 124px;
+	padding: 20px 30px;
+}
+
+.produto-info ul li { 
+	font-size: 14px;
+	line-height: 20px;
+	width: 181px;
+	height: 48px;
+	padding-top: 16px;
+}
+
 }
 
 
@@ -17,6 +43,7 @@
 
 @media only screen and (max-width: 787px) {
 
+/* Header */
 
 .header {
     position: relative;
@@ -47,6 +74,12 @@
     border-color: #FFF;
 }
 
+.header-menu ul li a.menu-ativo {
+	border-color: #FFF;
+}
+
+/* Introdução */
+
 .introducao {
 	margin-top: 0;
     padding-top: 40px;
@@ -59,24 +92,96 @@
 
 }
 
+/* Produtos Home */
+
 .produtos {
 	padding: 40px 0;
 }
+
+/* Portfolio Home */
 
 .portfolio {
 	padding: 40px 0;
 }
 
+/* Qualidade Home */
+
 .qualidade {
     padding: 40px 0;
 }
+
+.qualidade:after {
+	display: none;
+}
+
+/* Call to action */
 
 .call-to-action {
 	padding-top: 10px;
 }
 
-.qualidade:after {
-	display: none;
+/* Sobre */
+
+.missao p {
+	padding-right: 0;
+    font-size: 14px;
+}
+
+.valores ul li {
+    font-size: 14px;
+}
+
+/* Produtos */
+
+.produto-item h2 {
+	top: -100px;
+	margin-bottom: -68px;
+}
+
+.produto-icone {
+	padding: 41px 0;
+}
+
+.produto-info p {
+	font-size: 14px;
+    line-height: 20px;
+    height: auto;
+	padding: 20px;
+}
+
+.produto-info ul li { 
+	font-size: 14px;
+	line-height: 20px;
+	width: 149px;
+	padding-top: 16px;
+}
+
+.form {
+	padding-right: 0;
+}
+
+.form label {
+	font-size: 16px;
+}
+
+.orcamento-dados span {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.orcamento-dados ul {
+	padding-right: 0; 
+}
+
+/* Contato */
+
+.contato-dados span {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.mapa {
+	padding: 0px 0 60px 0;
 }
 
 }
