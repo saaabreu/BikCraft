@@ -385,6 +385,20 @@ img {
 	background: #FEC63F;
 }
 
+.js [data-anime] {
+	opacity: 0;
+}
+
+.js .fadeInDown {
+	transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
+
 
 
 
